@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Lists</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <style>
+        body {
+            background-image: url('https://images.unsplash.com/photo-1517336714731-489689fd1ca8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGxpc3RzfGVufDB8fHx8MTY0NjMyNTU1NQ&ixlib=rb-1.2.1&q=80&w=1080');
+            background-size: cover;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+        }
+
+        header, footer {
+            background-color: rgba(51, 51, 51, 0.8);
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        main {
+            background-color: rgba(255, 255, 255, 0.9);
+            margin: 2rem auto;
+            padding: 2rem;
+            border-radius: 10px;
+            width: 80%;
+            max-width: 1000px;
+        }
+
+        .animated-div img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Learn HTML</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="intro.html">Introduction</a></li>
+                <li><a href="tags.html">HTML Tags</a></li>
+                <li><a href="formatting.html">Formatting</a></li>
+                <li><a href="tables.html">Tables</a></li>
+                <li><a href="lists.html">Lists</a></li>
+                <li><a href="comments.html">Comments</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+                <li><a href="questions.html">Questions</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>HTML Lists</h2>
+        <p>HTML lists allow you to group a set of related items in lists. There are three types of lists in HTML: unordered lists, ordered lists, and definition lists.</p>
+
+        <div class="animated-div">
+            <h3>Unordered Lists</h3>
+            <p>An unordered list is a collection of items where the order does not matter. It is created using the <strong>&lt;ul&gt;</strong> and <strong>&lt;li&gt;</strong> tags.</p>
+            <pre>&lt;ul&gt;
+    &lt;li&gt;Item 1&lt;/li&gt;
+    &lt;li&gt;Item 2&lt;/li&gt;
+    &lt;li&gt;Item 3&lt;/li&gt;
+&lt;/ul&gt;</pre>
+            <img src="https://images.unsplash.com/photo-1511974035430-5de47d3b95da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDl8fGxpc3RzfGVufDB8fHx8MTY0NjMyNTU1NQ&ixlib=rb-1.2.1&q=80&w=1080" alt="Unordered List">
+        </div>
+
+        <div class="animated-div">
+            <h3>Ordered Lists</h3>
+            <p>An ordered list is a collection of items where the order matters. It is created using the <strong>&lt;ol&gt;</strong> and <strong>&lt;li&gt;</strong> tags.</p>
+            <pre>&lt;ol&gt;
+    &lt;li&gt;First item&lt;/li&gt;
+    &lt;li&gt;Second item&lt;/li&gt;
+    &lt;li&gt;Third item&lt;/li&gt;
+&lt;/ol&gt;</pre>
+            <img src="https://images.unsplash.com/photo-1528909514045-2fa4ac7a08ba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGxpc3RzfGVufDB8fHx8MTY0NjMyNTU1NQ&ixlib=rb-1.2.1&q=80&w=1080" alt="Ordered List">
+        </div>
+
+        <div class="animated-div">
+            <h3>Definition Lists</h3>
+            <p>A definition list is a collection of terms and their definitions. It is created using the <strong>&lt;dl&gt;</strong>, <strong>&lt;dt&gt;</strong> (definition term), and <strong>&lt;dd&gt;</strong> (definition description) tags.</p>
+            <pre>&lt;dl&gt;
+    &lt;dt&gt;HTML&lt;/dt&gt;
+    &lt;dd&gt;HyperText Markup Language&lt;/dd&gt;
+    &lt;dt&gt;CSS&lt;/dt&gt;
+    &lt;dd&gt;Cascading Style Sheets&lt;/dd&gt;
+&lt;/dl&gt;</pre>
+            <img src="https://images.unsplash.com/photo-1542856391-658f4a3ad957?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDEwfGxpc3RzfGVufDB8fHx8MTY0NjMyNTU1NQ&ixlib=rb-1.2.1&q=80&w=1080" alt="Definition List">
+        </div>
+
+        <div class="animated-div">
+            <h3>Nested Lists</h3>
+            <p>Lists can be nested inside other lists to create a hierarchical structure.</p>
+            <pre>&lt;ul&gt;
+    &lt;li&gt;Item 1
+        &lt;ul&gt;
+            &lt;li&gt;Subitem 1&lt;/li&gt;
+            &lt;li&gt;Subitem 2&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;Item 2&lt;/li&gt;
+&lt;/ul&gt;</pre>
+            <img src="https://images.unsplash.com/photo-1503457574466-1a5b5e4e8283?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGxpc3RzfGVufDB8fHx8MTY0NjMyNTU1NQ&ixlib=rb-1.2.1&q=80&w=1080" alt="Nested List">
+            <hr>
+            <a href="comments.html" class="start-button">Next page</a>
+        </div>
+    </main>
+    <footer>
+        <p>&copy;<ul>❤️made by warrier❤️</ul></p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatting in HTML</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <style>
+        body {
+            background-image: url('https://images.unsplash.com/photo-1517336714731-489689fd1ca8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGxpc3RzfGVufDB8fHx8MTY0NjMyNTU1NQ&ixlib=rb-1.2.1&q=80&w=1080');
+            background-size: cover;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+        }
+
+        header, footer {
+            background-color: rgba(51, 51, 51, 0.8);
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        main {
+            background-color: rgba(255, 255, 255, 0.9);
+            margin: 2rem auto;
+            padding: 2rem;
+            border-radius: 10px;
+            width: 80%;
+            max-width: 1000px;
+        }
+
+        .animated-div img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Learn HTML</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="intro.html">Introduction</a></li>
+                <li><a href="tags.html">HTML Tags</a></li>
+                <li><a href="formatting.html">Formatting</a></li>
+                <li><a href="tables.html">Tables</a></li>
+                <li><a href="lists.html">Lists</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Formatting in HTML</h2>
+        <p>HTML allows you to format text and other elements to enhance the appearance of your web page. Here are some common formatting techniques:</p>
+
+        <div class="animated-div">
+            <h3>Text Formatting</h3>
+            <p>HTML provides various tags to format text, including:</p>
+            <ul>
+                <li><strong>&lt;b&gt;</strong> - Bold text</li>
+                <li><strong>&lt;i&gt;</strong> - Italic text</li>
+                <li><strong>&lt;u&gt;</strong> - Underlined text</li>
+                <li><strong>&lt;em&gt;</strong> - Emphasized text</li>
+                <li><strong>&lt;strong&gt;</strong> - Important text</li>
+                <li><strong>&lt;sup&gt;</strong> - Superscript text</li>
+                <li><strong>&lt;sub&gt;</strong> - Subscript text</li>
+            </ul>
+            <img src="https://images.unsplash.com/photo-1550343455-ec04f7c9a8c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fHRleHR8ZW58MHx8fHwxNjQ2MzE5Mzg5&ixlib=rb-1.2.1&q=80&w=1080" alt="Text Formatting">
+        </div>
+
+        <div class="animated-div">
+            <h3>Font Styles</h3>
+            <p>You can also change the font style and size using CSS:</p>
+            <pre>
+&lt;style&gt;
+    p {
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+    }
+&lt;/style&gt;
+            </pre>
+            <img src="https://images.unsplash.com/photo-1544025162-d7669426593a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGZvbnR8ZW58MHx8fHwxNjQ2MzE5Mzg5&ixlib=rb-1.2.1&q=80&w=1080" alt="Font Styles">
+        </div>
+
+        <div class="animated-div">
+            <h3>Paragraph Formatting</h3>
+            <p>HTML provides tags to format paragraphs, such as:</p>
+            <ul>
+                <li><strong>&lt;p&gt;</strong> - Defines a paragraph</li>
+                <li><strong>&lt;br&gt;</strong> - Inserts a line break</li>
+                <li><strong>&lt;pre&gt;</strong> -
+                    &lt;p&gt;This is a paragraph.&lt;/p&gt;
+                    &lt;p&gt;Another paragraph.&lt;/p&gt;
+                </pre>
+                <img src="https://images.unsplash.com/photo-1550343455-ec04f7c9a8c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fHRleHR8ZW58MHx8fHwxNjQ2MzE5Mzg5&ixlib=rb-1.2.1&q=80&w=1080" alt="Paragraph Formatting">
+                <hr>
+                <a href="tables.html" class="start-button">Next page</a>
+            </div>
+
+        </main>
+        <footer>
+            <p>&copy;<ul>❤️made by warrier❤️</ul></p>
+        </footer>
+    </body>
+    </html>
+    

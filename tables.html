@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tables</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <style>
+        body {
+            background-image: url('https://images.unsplash.com/photo-1518972559570-7cc1309f3229?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fG5vdGVzfGVufDB8fHx8MTY0NjMxOTM4OQ&ixlib=rb-1.2.1&q=80&w=1080');
+            background-size: cover;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+        }
+
+        header, footer {
+            background-color: rgba(51, 51, 51, 0.8);
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        main {
+            background-color: rgba(255, 255, 255, 0.9);
+            margin: 2rem auto;
+            padding: 2rem;
+            border-radius: 10px;
+            width: 80%;
+            max-width: 1000px;
+        }
+
+        .animated-div img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Learn HTML</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="intro.html">Introduction</a></li>
+                <li><a href="tags.html">HTML Tags</a></li>
+                <li><a href="formatting.html">Formatting</a></li>
+                <li><a href="tables.html">Tables</a></li>
+                <li><a href="lists.html">Lists</a></li>
+                <li><a href="comments.html">Comments</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+                <li><a href="questions.html">Questions</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>HTML Tables</h2>
+        <p>HTML tables allow you to arrange data into rows and columns. Tables are useful for displaying data in a structured format.</p>
+
+        <div class="animated-div">
+            <h3>Basic Table Structure</h3>
+            <p>The basic structure of an HTML table includes the <strong>&lt;table&gt;</strong>, <strong>&lt;tr&gt;</strong> (table row), <strong>&lt;th&gt;</strong> (table header), and <strong>&lt;td&gt;</strong> (table data) elements.</p>
+            <pre>&lt;table&gt;
+    &lt;tr&gt;
+        &lt;th&gt;Header 1&lt;/th&gt;
+        &lt;th&gt;Header 2&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Data 1&lt;/td&gt;
+        &lt;td&gt;Data 2&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;</pre>
+            <img src="https://images.unsplash.com/photo-1559656027-29429f7a3c3d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fHRhYmxlc3xlbnwwfHx8fDE2NDA5Nzg4ODU&ixlib=rb-1.2.1&q=80&w=1080" alt="HTML Table">
+        </div>
+
+        <div class="animated-div">
+            <h3>Advanced Table Features</h3>
+            <p>Tables can also include captions, column spans, and row spans for more complex layouts.</p>
+            <pre>&lt;table&gt;
+    &lt;caption&gt;Monthly Sales&lt;/caption&gt;
+    &lt;tr&gt;
+        &lt;th&gt;Month&lt;/th&gt;
+        &lt;th&gt;Sales&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;January&lt;/td&gt;
+        &lt;td&gt;$1000&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;February&lt;/td&gt;
+        &lt;td&gt;$1500&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;</pre>
+            <img src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDZ8fHRhYmxlc3xlbnwwfHx8fDE2NDA5Nzg4ODU&ixlib=rb-1.2.1&q=80&w=1080" alt="Advanced HTML Table">
+        </div>
+
+        <div class="animated-div">
+            <h3>Styling Tables</h3>
+            <p>You can style tables using CSS to make them more visually appealing.</p>
+            <pre>&lt;style&gt;
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+&lt;/style&gt;</pre>
+         <img src="https://images.unsplash.com/photo-1587620957410-9d531d8d1b09?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDh8fHRhYmxlc3xlbnwwfHx8fDE2NDA5Nzg4ODU&ixlib=rb-1.2.1&q=80&w=1080" alt="Styled HTML Table">
+         <hr>
+         <a href="lists.html"start-button">Next page</a>
+        </div>
+    </main>
+    <footer>
+        <p>&copy;<ul>❤️made by warrier❤️</ul></p>
+    </footer>
+</body>
+</html>

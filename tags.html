@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tags</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <style>
+        body {
+            background-image: url('https://images.unsplash.com/photo-1518972559570-7cc1309f3229?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fG5vdGVzfGVufDB8fHx8MTY0NjMxOTM4OQ&ixlib=rb-1.2.1&q=80&w=1080');
+            background-size: cover;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+        }
+
+        header, footer {
+            background-color: rgba(51, 51, 51, 0.8);
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        main {
+            background-color: rgba(255, 255, 255, 0.9);
+            margin: 2rem auto;
+            padding: 2rem;
+            border-radius: 10px;
+            width: 80%;
+            max-width: 1000px;
+        }
+
+        .animated-div img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Learn HTML</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="intro.html">Introduction</a></li>
+                <li><a href="tags.html">HTML Tags</a></li>
+                <li><a href="formatting.html">Formatting</a></li>
+                <li><a href="tables.html">Tables</a></li>
+                <li><a href="lists.html">Lists</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>HTML Tags</h2>
+        <p>HTML tags are used to create elements on a web page. Each tag has a specific purpose and is used to define the structure and content of a web page. Here are some commonly used HTML tags:</p>
+
+        <div class="animated-div">
+            <h3>&lt;html&gt;</h3>
+            <p>The <strong>&lt;html&gt;</strong> tag represents the root of an HTML document.</p>
+            <pre>&lt;html&gt;
+    &lt;!-- Document content --&gt;
+&lt;/html&gt;</pre>
+        </div>
+
+        <div class="animated-div">
+            <h3>&lt;head&gt;</h3>
+            <p>The <strong>&lt;head&gt;</strong> tag contains meta-information about the HTML document.</p>
+            <pre>&lt;head&gt;
+    &lt;title&gt;Page Title&lt;/title&gt;
+&lt;/head&gt;</pre>
+        </div>
+
+        <div class="animated-div">
+            <h3>&lt;title&gt;</h3>
+            <p>The <strong>&lt;title&gt;</strong> tag sets the title of the HTML document.</p>
+            <pre>&lt;title&gt;My Website&lt;/title&gt;</pre>
+        </div>
+
+        <div class="animated-div">
+            <h3>&lt;body&gt;</h3>
+            <p>The <strong>&lt;body&gt;</strong> tag contains the content of the HTML document.</p>
+            <pre>&lt;body&gt;
+    &lt;h1&gt;Welcome to My Website&lt;/h1&gt;
+&lt;/body&gt;</pre>
+        </div>
+
+        <div class="animated-div">
+            <h3>&lt;h1&gt; to &lt;h6&gt;</h3>
+            <p>Heading tags <strong>&lt;h1&gt; to &lt;h6&gt;</strong> define headings, with <strong>&lt;h1&gt;</strong> being the highest level and <strong>&lt;h6&gt;</strong> the lowest.</p>
+            <pre>&lt;h1&gt;Heading 1&lt;/h1&gt;
+&lt;h2&gt;Heading 2&lt;/h2&gt;
+&lt;h3&gt;Heading 3&lt;/h3&gt;
+&lt;h4&gt;Heading 4&lt;/h4&gt;
+&lt;h5&gt;Heading 5&lt;/h5&gt;
+&lt;h6&gt;Heading 6&lt;/h6&gt;</pre>
+        </div>
+
+        <div class="animated-div">
+            <h3>&lt;p&gt;</h3>
+            <p>The <strong>&lt;p&gt;</strong> tag defines a paragraph.</p>
+            <pre>&lt;p&gt;This is a paragraph.&lt;/p&gt;</pre>
+        </div>
+
+        <div class="animated-div">
+            <h3>&lt;a&gt;</h3>
+            <p>The <strong>&lt;a&gt;</strong> tag defines a hyperlink.</p>
+            <pre>&lt;a href="https://example.com"&gt;Visit Example&lt;/a&gt;</pre>
+        </div>
+
+        <div class="animated-div">
+            <h3>&lt;img&gt;</h3>
+            <p>The <strong>&lt;img&gt;</strong> tag embeds an image.</p>
+            <pre>&lt;img src="image.jpg" alt="Description"&gt;</pre>
+        </div>
+
+        <div class="animated-div">
+            <h3>&lt;div&gt;</h3>
+            <p>The <strong>&lt;div&gt;</strong> tag defines a division or section in an HTML document.</p>
+            <pre>&lt;div&gt;
+    &lt;p&gt;This is a div section.&lt;/p&gt;
+&lt;/div&gt;</pre>
+        </div>
+
+        <div class="animated-div">
+            <h3>&lt;span&gt;</h3>
+            <p>The <strong>&lt;span&gt;</strong> tag defines a section in a document.</p>
+            <pre>&lt;span&gt;This is a span section.&lt;/span&gt;</pre>
+        </div>
+
+        <div class="animated-div">
+            <h3>&lt;ul&gt; and &lt;ol&gt;</h3>
+            <p>The <strong>&lt;ul&gt;</strong> tag defines an unordered list, and the <strong>&lt;ol&gt;</strong> tag defines an ordered list.</p>
+            <pre>&lt;ul&gt;
+    &lt;li&gt;Item 1&lt;/li&gt;
+    &lt;li&gt;Item 2&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+    &lt;li&gt;First item&lt;/li&gt;
+    &lt;li&gt;Second item&lt;/li&gt;
+&lt;/ol&gt;</pre>
+        </div>
+
+        <div class="animated-div">
+            <h3>&lt;li&gt;</h3>
+            <p>The <strong>&lt;li&gt;</strong> tag defines a list item.</p>
+            <pre>&lt;ul&gt;
+    &lt;li&gt;Item 1&lt;/li&gt;
+    &lt;li&gt;Item 2&lt;/li&gt;
+&lt;/ul&gt;</pre>
+        </div>
+
+        <div class="animated-div">
+            <h3>&lt;table&gt;</h3>
+            <p>The <strong>&lt;table&gt;</strong> tag defines a table.</p>
+            <pre>&lt;table border="1"&gt;
+    &lt;tr&gt;
+        &lt;th&gt;Header 1&lt;/th&gt;
+        &lt;th&gt;Header 2&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Row 1, Cell 1&lt;/td&gt;
+        &lt;td&gt;Row 1, Cell 2&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;</pre>
+        </div>
+
+        <div class="animated-div">
+            <h3>&lt;tr&gt;</h3>
+            <p>The <strong>&lt;tr&gt;</strong> tag defines a table row.</p>
+            <pre>&lt;table border="1"&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Row 1, Cell 1&lt;/td&gt;
+        &lt;td&gt;Row 1, Cell 2&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;</pre>
+        </div>
+
+        <div class="animated-div">
+            <h3>&lt;td&gt;</h3>
+            <p>The <strong>&lt;td&gt;</strong> tag defines a table cell.</p>
+            <pre>&lt;table border="1"&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Row 1, Cell 1&lt;/td&gt;
+        &lt;td&gt;Row 1, Cell 2&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;</pre>
+<a href="formatting.html" class="start-button">Next page</a>
+        </div>
+    </main>
+    <footer>
+        <p>&copy;<ul>❤️made by warrier❤️</ul></p>
+    </footer>
+</body>
+</html>
